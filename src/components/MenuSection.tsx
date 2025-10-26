@@ -43,7 +43,7 @@ const MenuSection = () => {
     ];
 
     return (
-        <section className="py-20 px-6 bg-gradient-to-b from-background to-warm-beige/80">
+        <section id="menu" className="py-20 px-6 bg-gradient-to-b from-background to-warm-beige/80">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16 animate-fade-in">
                     <h2 className="font-playfair text-5xl md:text-6xl font-bold text-foreground mb-4">
@@ -60,6 +60,8 @@ const MenuSection = () => {
                             key={index}
                             className="bg-card rounded-3xl p-8 shadow-soft hover:shadow-elegant transition-all duration-300 hover:-translate-y-1 animate-fade-in-up"
                             style={{ animationDelay: `${index * 0.1}s` }}
+                            data-aos="fade-up"
+                            data-aos-delay={index * 400}
                         >
                             <h3 className="font-playfair text-2xl font-semibold text-foreground mb-3">
                                 {category.name}
@@ -84,7 +86,7 @@ const MenuSection = () => {
                                     size="sm"
                                     className="rounded-full cursor-pointer font-medium border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                                 >
-                                   Saiba Mais
+                                    Saiba Mais
                                 </Button>
                             </div>
                         </div>

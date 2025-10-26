@@ -28,7 +28,7 @@ const CakesSection = () => {
   ];
 
   return (
-    <section id="cakes" className="py-24 bg-background">
+    <section id="bolos" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 space-y-4 animate-fade-in">
           <p className="font-poppins text-sm uppercase tracking-widest text-primary">
@@ -50,6 +50,9 @@ const CakesSection = () => {
               key={cake.title}
               className="animate-fade-in-up"
               style={{ animationDelay: `${index * 0.2}s` }}
+
+              data-aos="fade-down"
+              data-aos-delay={index * 300}
             >
               <Card className="group overflow-hidden border-primary/10 hover:shadow-elegant transition-all duration-300">
                 <div className="relative overflow-hidden">
@@ -78,8 +81,8 @@ const CakesSection = () => {
                       </li>
                     ))}
                   </ul>
-                  <Button className="w-full mt-4 bg-primary hover:bg-primary/90 text-primary-foreground">
-                   Saiba Mais
+                  <Button className="w-full mt-4 bg-primary cursor-pointer hover:bg-primary/90 text-primary-foreground">
+                    Saiba Mais
                   </Button>
                 </CardContent>
               </Card>
@@ -87,7 +90,7 @@ const CakesSection = () => {
           ))}
         </div>
 
-        <div className="bg-gradient-to-r from-soft-rose to-blush-pink rounded-2xl p-12 text-center space-y-6 animate-scale-in">
+        <div className="bg-gradient-to-r from-soft-rose to-blush-pink rounded-2xl p-12 text-center space-y-6 animate-pulse-zoom">
           <h3 className=" text-3xl md:text-4xl font-black text-foreground">
 
             Projete o bolo dos seus sonhos
@@ -101,7 +104,7 @@ const CakesSection = () => {
             size="lg"
             className="bg-foreground cursor-pointer text-background hover:bg-foreground/90 shadow-elegant"
           >
-          Faça uma Consulta
+            Faça uma Consulta
           </Button>
         </div>
       </div>

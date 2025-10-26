@@ -29,9 +29,9 @@ const ProductCard = ({ image, name, description, price }: ProductCardProps) => {
         </p>
         <Button
           variant="outline"
-          className="w-full rounded-full font-poppins font-medium border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+          className="w-full rounded-full cursor-pointer font-poppins font-medium border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
         >
-          Order Now
+         Saiba Mais
         </Button>
       </div>
     </div>

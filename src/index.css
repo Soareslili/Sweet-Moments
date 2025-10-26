@@ -116,3 +116,20 @@
   --color-sidebar-border: #262626;
   --color-sidebar-ring: #6ea8ff;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes pulse-zoom {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-zoom {
+  animation: pulse-zoom 2s ease-in-out infinite;
+}
