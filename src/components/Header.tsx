@@ -30,7 +30,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
        
-          <h1 className="font-playfair text-2xl md:text-3xl font-bold text-foreground">
+          <h1 className=" text-2xl md:text-3xl font-bold text-foreground">
             Sweet Moments
           </h1>
 

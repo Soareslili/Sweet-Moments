@@ -5,34 +5,36 @@ import partyTable from "../assets/partyTable.png";
 const PartiesSection = () => {
     const partyPackages = [
         {
-            name: "Sweet Beginnings",
-            price: "$150",
-            items: ["12 Cupcakes", "24 Macarons", "Dessert Table Setup"],
-            serves: "Up to 15 guests",
+            name: "Doces Inícios",
+            price: "R$150",
+            items: ["12 Cupcakes", "24 Macarons", "Montagem da Mesa de Sobremesas"],
+            serves: "Até 15 convidados",
         },
         {
-            name: "Celebration Delight",
-            price: "$350",
-            items: ["1 Custom Cake", "24 Cupcakes", "48 Macarons", "Cake Pops", "Full Dessert Display"],
-            serves: "Up to 40 guests",
+            name: "Delícia de Celebração",
+            price: "R$350",
+            items: ["1 Bolo Personalizado", "24 Cupcakes", "48 Macarons", "Pops de Bolo", "Exposição Completa de Sobremesas"],
+            serves: "Até 40 convidados",
             featured: true,
         },
         {
-            name: "Grand Affair",
-            price: "$650",
-            items: ["2-Tier Custom Cake", "48 Cupcakes", "100 Macarons", "Decorative Treats", "Premium Setup & Styling"],
-            serves: "Up to 80 guests",
+            name: "Grande Evento",
+            price: "R$650",
+            items: ["Bolo Personalizado de 2 Andares", "48 Cupcakes", "100 Macarons", "Doces Decorativos", "Montagem e Estilo Premium"],
+            serves: "Até 80 convidados",
         },
+
     ];
 
     const occasions = [
-        "Birthdays",
-        "Weddings",
-        "Baby Showers",
-        "Bridal Showers",
-        "Corporate Events",
-        "Anniversaries",
+        "Aniversários",
+        "Casamentos",
+        "Chás de Bebê",
+        "Chás de Panela",
+        "Eventos Corporativos",
+        "Aniversários de Casamento",
     ];
+
 
     return (
         <section id="pacotes" className="py-24 bg-cream">
@@ -84,7 +86,7 @@ const PartiesSection = () => {
                                     style={{ animationDelay: `${0.3 + index * 0.1}s` }}
                                     data-aos="fade-down"
                                     data-aos-delay={index * 400}
-                                   
+
 
                                 >
                                     <span className="w-2 h-2 rounded-full bg-primary" />
