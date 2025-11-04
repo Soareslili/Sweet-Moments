@@ -1,8 +1,8 @@
 import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
-import weddingCake from "../assets/weddingcake.png";
-import chocolateCake from "../assets/chocolatecake.png";
-import vanillaCake from "../assets/vanillacake.png";
+import weddingCake from "../assets/weddingCake.png";
+import chocolateCake from "../assets/chocolateCake.png";
+import vanillaCake from "../assets/vanillaCake.png";
 
 const CakesSection = () => {
   const cakeCategories = [
