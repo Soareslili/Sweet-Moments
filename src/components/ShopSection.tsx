@@ -1,5 +1,5 @@
 import { Button } from "../components/ui/button";
-import shopDisplay from "../assets/shopdisplay.png";
+import shopDisplay from "../assets/shopDisplay.png";
 import giftBox from "../assets/giftbox.png";
 import macaronsAssorted from "../assets/macaronsassorted.png";
 import strawberryCupcake from "../assets/strawberrycupcake.png";
